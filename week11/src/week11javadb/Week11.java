@@ -54,13 +54,13 @@ public class Week11 {
                 System.out.println("6. Hapus data penulis");
                 System.out.println("7. Tampilkan semua tabel");
                 System.out.println("8. Keluar");
-                System.out.print("Pilihan Anda: ");
+                System.out.print("Input Pilihan Menu: ");
 
                 if (scanner.hasNextInt()) {
                     choice = scanner.nextInt();
                     scanner.nextLine(); // consume newline
                 } else {
-                    System.out.println("Input tidak valid. Masukkan angka dari 1 hingga 8.");
+                    System.out.println("Input salah. Masukkan angka dari 1 hingga 8.");
                     scanner.next(); // Consume invalid input
                     continue;
                 }

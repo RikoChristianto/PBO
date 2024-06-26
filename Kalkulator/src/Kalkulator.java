@@ -14,7 +14,7 @@ public class Kalkulator extends javax.swing.JFrame {
      */
     public Kalkulator() {
         initComponents();
-         Final.setEditable(false);
+        Final.setEditable(false);
     }
 
     /**

@@ -251,9 +251,9 @@ public class Kalkulator extends javax.swing.JFrame {
 
     private void HapusActionPerformed(java.awt.event.ActionEvent evt) {                                      
         // TODO add your handling code here:
-    Angka1.setText("");
-    Angka2.setText("");
-    Final.setText("");
+        Angka1.setText("");
+        Angka2.setText("");
+        Final.setText("");
     }                                     
 
     private boolean validateInput() {
@@ -273,7 +273,7 @@ public class Kalkulator extends javax.swing.JFrame {
             return false;
         }
         
-        return true;
+            return true;
     }
     
     /**
